@@ -1,0 +1,479 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+    padding:0;	
+}
+body{
+	color: rgba(0,0,0,1);
+	font-family: Arial, sans-serif;
+	font-size:14px;	
+}
+
+/* topo */
+#topo{
+	width:100%;
+	position:fixed;
+	margin-top:0px;
+	background-color:#FF7700;
+	padding-top:20px;	
+}
+#navegacao{
+	border-top:#F90 1px solid;
+	margin-top:50px;
+	width:100%;
+	padding:15px;
+	text-align:center;	
+}
+.buscar{
+	position:absolute;
+	margin:-7px 50px;
+	outline:none;
+	
+}
+.buscar:hover{
+    border:#ddd 1px solid;
+	border-radius:80%;
+	transition:2s;
+	cursor:pointer;	
+	
+}
+.logo{
+	position:absolute;
+	margin:-7px 650px;
+}
+.face{
+    position:absolute;
+	margin:-7px 1200px;
+    outline:none;	
+}
+.face:hover{
+	border:#F90 1px solid;
+	border-radius:100%;
+	transition:2s;
+	cursor:pointer;	
+}
+.lampada{
+    
+    position:absolute;
+	margin:-7px 1280px;
+	outline:none;	
+}
+.lampada:hover{
+	border:#F90 1px solid;
+	border-radius:100%;
+	transition:2s;
+	cursor:pointer;	
+}
+.menu{
+	text-decoration:none;
+	color:#FFF;
+	margin:0px 20px;
+	font-size:15px;
+	text-transform:uppercase;	
+}
+a.menu:hover{
+	text-decoration:underline;	
+}
+/* area do container */
+#container{
+	border:1px solid #CCC;
+	margin:0px 0px;	
+}
+#corpo{
+	width:1006px;
+	clear:both;
+	border:1px solid white;	
+	margin:0 auto 0 auto;
+	margin-top:150px;
+	margin-bottom:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+/* elemtos do container*/
+#seta-esquerda{
+	width:30px;
+	height:560px;
+	float:left;
+	display:block;
+	background-image:url(../img/seta-esquerda-branca.png);
+	
+}
+#seta-esquerda:hover{
+	background-image:url(../img/seta-esquerda-cinza.png);	
+}
+#galeria-1{
+    width:470px;
+	height:560px ;
+	float:left;
+	display:block;
+	border:#FFF 1px solid;
+	background-image:url(../img/foto-game%20-1.png);		
+}
+#galeria-1:hover{
+	background-image:url(../img/foto-game%20-2.png);	
+}
+#galeria-2{
+    width:470px;
+	height:560px;
+	float:left;
+	display:block;
+	border:#FFF 1px solid;			
+	}
+#foto-game-2{
+	width:470px;
+	height:280px;
+	float:left;
+	display:block;
+	background-image:url(../img/foto-game-4.png);	
+	border:#FFF 1px solid;
+	margin-top:-1px	
+}
+#foto-game-2:hover{
+	background-image:url(../img/foto-game-5.jpg);	
+}
+#foto-game-3{
+    width:470px;
+	height:278px;
+	float:left;
+	display:block;
+	background-image:url(../img/foto-game-6.png);
+	border:#FFF 1px solid;	
+}
+#foto-game-3:hover{
+   background-image:url(../img/foto-game-5.jpg);
+}	
+#seta-direita{
+	width:30px;
+	height:560px;
+	float:left;
+	display:block;
+    background-image:url(../img/seta-direita-branca.png);
+	border:#FFF 1px solid;
+}
+#seta-direita:hover{
+	background-image:url(../img/seta-direita-cinza.png);		
+}
+ul{
+	width:1006px;
+	height:40px;
+	float:left;
+	display:block;	
+	list-style:none;
+	text-align:center;		
+}
+ul li{
+	width:20px;
+	height:20px;
+	display:inline-block;
+	border-radius:100px;
+	margin:25px 5px;
+	background-color:#999;	
+}
+ul li:hover{
+	background-color:#F90;	
+}
+/* Cabeçalho da primeira seção */
+#cabecalho-noticias{
+	border-bottom:#CCC 1px solid;
+	width:950px;
+	margin-left:23px;
+}
+.cabecalho{
+	color:#999;
+	font-size:12px;
+	font-weight:bolder;
+	text-decoration:none;
+	text-transform:uppercase;
+	margin-bottom:20px;	
+}
+.cabecalho:hover{
+	color:#FF7700;		
+}
+/* conteudo da primeira seção */
+#conteudo-duplo{
+	margin-top:20px;
+	margin-left:23px;
+	width:950px;
+	height:450px;
+	margin-bottom:20px;		
+}
+#conteudo-noticias{
+	width:455px;
+	height:430px;
+	padding:10px;
+	text-align:justify;
+	display:block;
+	float:left;
+	border:1px #CCC solid;	
+}
+/* Cabeçalho da primeira seção lateral */
+#conteudo-imagens{
+	width:470px;
+	height:450px;
+	text-align:justify;
+	border:	1px #CCC solid;
+	display:block;
+	float:left;
+	background-image:url('../img/play-4-pro.png');	
+}
+#conteudo-imagens:hover{
+	background-image:url('../img/imagem2-galeria.png');	
+}
+/* Cabeçalho da seção video */
+#cabecalho-video{
+	border-bottom:#CCC 1px solid;
+	width:950px;
+	margin-left:23px;
+		
+}
+/*conteudo seção video */
+#conteudo-video{
+	margin-top:10px;
+	margin-left:23px;
+	width:950px;
+	height:450px;
+	margin-bottom:20px;	
+	border:1px solid #ccc;
+	padding:20px;
+	box-sizing:border-box;	
+}
+#filme{
+	display:block;
+	position:relative;
+	width:890px;
+	height:390px;
+	display:block;
+	border:5px solid #ccc;	
+}
+#filme:hover{
+	border:5px solid #C60;	
+}
+/* Cabeçalho da seção galeria */
+#cabecalho-galeria{
+	border-bottom:#CCC 1px solid;
+	width:950px;
+	margin-left:23px;
+}
+/* conteudo da seção galeria */
+#conteudo-galeria{
+	margin-top:20px;
+	margin-left:23px;
+	width:950px;
+	height:450px;
+	margin-bottom:20px;	
+	border:1px solid #ccc;
+	box-sizing:border-box;
+	padding:10px;		
+}
+.imagens{
+	width:287px;
+	height:190px;
+	border:5px solid #ccc;
+	float:left;	
+	margin:5px;
+	
+}
+.imagens:hover{
+	border:5px solid #F60;
+		
+} 
+/* Cabeçalho da seção top 10 */
+#cabecalho-top-10{
+	border-bottom:#CCC 1px solid;
+	width:950px;
+	margin-left:23px;
+}
+/* Conteudo da seção top 10 */
+#conteudo-top-10{
+	margin-top:20px;
+	margin-left:23px;
+	width:950px;
+	height:335px;
+	margin-bottom:20px;	
+	border:1px solid #ccc;	
+}
+
+#hoje{
+   width:106px;
+   height:40px;
+   border:#CCC 1px solid;
+   display:block;
+   float:left;
+   background-image:url(../img/hoje-cinza.png);		  		
+}
+#semana{
+   width:106px;
+   height:40px;
+   border:#CCC 1px solid;
+   display:block;
+   float:left;	
+   background-image:url(../img/semana-cinza.png);		
+}
+#mes{
+   width:106px;
+   height:40px;
+   border:#CCC 1px solid;
+   display:block;
+   float:left;	
+   background-image:url(../img/mes-cinza.png);		
+}
+#sobra-1{
+   width:624px;
+   height:40px;
+   border:#CCC 1px solid;
+   display:block;
+   float:left;	
+   background-image:url(../img/sobra-2.png);		
+}
+#hoje:hover{
+    background-image:url(../img/hoje-branco.png);	
+}
+
+#semana:hover{
+    background-image:url(../img/semana-branca.png);	
+}
+#mes:hover{	
+    background-image:url(../img/mes-branco.png);	
+}
+#galeria-foto-1{
+    width:375px;
+    height:290px;
+    border:#CCC 1px solid;
+    display:block;
+    float:left;	
+    background-image:url(../img/galeria-foto-1.png);				
+}
+#galeria-foto-1:hover{
+    background-image:url(../img/galeria-foto-01.png);			
+}
+
+#contorno-galeria{
+	width:571px;
+    height:290px;
+    border:#CCC 1px solid;
+    display:block;
+    float:left;		
+}
+#galeria-foto-2{
+	width:190px;
+    height:95px;
+    border:#CCC 1px solid;
+    display:block;
+    float:left;
+	background-image:url(../img/galeria-foto-2.png);		
+}
+#galeria-foto-3{
+	width:190px;
+    height:95px;
+    border:#CCC 1px solid;
+    display:block;
+    float:left;
+	background-image:url(../img/galeria-foto-3.png);			
+}
+#galeria-foto-4{
+	width:185px;
+    height:95px;
+    border:#CCC 1px solid;
+    display:block;
+    float:left;	
+	background-image:url(../img/galeria-foto-4.png);		
+}
+#galeria-foto-5{
+	width:190px;
+    height:95px;
+    border:#CCC 1px solid;
+    display:block;
+    float:left;
+	background-image:url(../img/galeria-foto-5.png);			
+}
+#galeria-foto-6{
+	width:190px;
+    height:95px;
+    border:#CCC 1px solid;
+    display:block;
+    float:left;
+	background-image:url(../img/galeria-foto-6.png);			
+}
+#galeria-foto-7{
+	width:185px;
+    height:95px;
+    border:#CCC 1px solid;
+    display:block;
+    float:left;
+	background-image:url(../img/galeria-foto-7.png);				
+}
+#galeria-foto-8{
+	width:190px;
+    height:95px;
+    border:#CCC 1px solid;
+    display:block;
+    float:left;
+	background-image:url(../img/galeria-foto-8.png);			
+}
+#galeria-foto-9{
+	width:190px;
+    height:95px;
+    border:#CCC 1px solid;
+    display:block;
+    float:left;
+	background-image:url(../img/galeria-foto-9.png);			
+}
+
+#galeria-foto-10{
+	width:185px;
+    height:95px;
+    border:#CCC 1px solid;
+    display:block;
+    float:left;
+	background-image:url(../img/galeria-foto-10.png);			
+}
+#galeria-foto-2:hover{
+	background-image:url(../img/galeria-foto-02.png);		
+}
+#galeria-foto-3:hover{
+	background-image:url(../img/galeria-foto-03.png);		
+}
+#galeria-foto-4:hover{
+	background-image:url(../img/galeria-foto-04.png);		
+}
+
+#galeria-foto-5:hover{
+	background-image:url(../img/galeria-foto-05.png);		
+}
+#galeria-foto-6:hover{
+	background-image:url(../img/galeria-foto-06.png);		
+}
+#galeria-foto-7:hover{
+	background-image:url(../img/galeria-foto-07.png);		
+}
+
+#galeria-foto-8:hover{
+	background-image:url(../img/galeria-foto-08.png);		
+}
+#galeria-foto-9:hover{
+	background-image:url(../img/galeria-foto-09.png);		
+}
+#galeria-foto-10:hover{
+	background-image:url(../img/galeria-foto-010.png);		
+}
+
+#sobra-2{
+	width:948px;
+    height:40px;
+    border:#CCC 1px solid;
+    display:block;
+    float:left;
+	background-image:url(../img/sobra1.png);		
+}
+/* rodapé do site */
+#rodape{
+	width:100%;
+	height:50px;
+	background:#FF7700;
+	padding-top:50px;
+	text-align:center;
+	color:white;
+	clear:both;		
+}
